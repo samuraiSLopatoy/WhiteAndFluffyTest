@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WhiteAndFluffyTest
 //
-//  Created by Михаил Кулагин on 31.01.2022.
+//  Created by Михаил Кулагин on 01.02.2022.
 //
 
 import UIKit
