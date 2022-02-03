@@ -20,7 +20,6 @@ class TableController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         navigationItem.title = "Favorites"
     
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")

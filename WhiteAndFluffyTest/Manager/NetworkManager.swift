@@ -18,7 +18,8 @@ class NetworkManager {
     private let baseUrlString = "https://api.unsplash.com"
     private let accessKey = "EAJVw7LBAiWCYnhp2vTzEsA6z939DxHF0yMsdT15e4A"
     
-    // MARK: Search photos
+    // MARK: - Search photos
+    
     func searchPhotos(query: String, completion: @escaping (SearchResults?) -> Void) {
         
         let urlString = "\(baseUrlString)/search/photos?page=1&per_page=20&query=\(query)&orientation=squarish&client_id=\(accessKey)"
@@ -43,7 +44,8 @@ class NetworkManager {
         }.resume()
     }
     
-    // MARK: Get a random photos
+    // MARK: - Get a random photos
+    
     func fetchRandomPhotos(completion: @escaping ([Photo]) -> Void) {
         
         let urlString = "\(baseUrlString)/photos/random?count=20&orientation=squarish&client_id=\(accessKey)"

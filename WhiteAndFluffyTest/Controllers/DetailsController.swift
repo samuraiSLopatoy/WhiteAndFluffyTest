@@ -14,10 +14,6 @@ class DetailsController: UIViewController {
     
     // MARK: - UI Elements
     
-//    private lazy var trashBarButtonItem: UIBarButtonItem = {
-//        return UIBarButtonItem(barButtonSystemItem: .trash, target: self, action: #selector(trashBarButtonTapped))
-//    }()
-    
     private lazy var addBarButtonItem: UIBarButtonItem = {
         return UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addBarButtonTapped))
     }()

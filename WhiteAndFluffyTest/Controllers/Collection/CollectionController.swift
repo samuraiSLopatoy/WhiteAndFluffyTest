@@ -63,7 +63,6 @@ class CollectionController: UICollectionViewController {
             self?.photos = fetchedPhotos
             self?.collectionView.reloadData()
         }
-        
     }
     
     // MARK: - Setup UI Elements
@@ -91,8 +90,7 @@ class CollectionController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionCell.reuseId, for: indexPath) as! CollectionCell
-        let onePhoto = photos[indexPath.item]
-        cell.photo = onePhoto
+        cell.photo = photos[indexPath.item]
         return cell
     }
     
