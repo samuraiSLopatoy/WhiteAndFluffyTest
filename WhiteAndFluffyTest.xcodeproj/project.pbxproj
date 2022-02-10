@@ -19,6 +19,7 @@
 		C8447F6C27A906E400541D98 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8447F6B27A906E400541D98 /* NetworkManager.swift */; };
 		C8447F7427A9353500541D98 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8447F7327A9353500541D98 /* CollectionCell.swift */; };
 		C8447F7827A9787800541D98 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8447F7727A9787800541D98 /* UILabel + Extension.swift */; };
+		C8AF7D2027B3C1FF008DA63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AF7D1F27B3C1FF008DA63E /* Main.storyboard */; };
 		CBD940E51D94528EB13AD20E /* Pods_WhiteAndFluffyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892DBEB5EC10F6EA49D3F377 /* Pods_WhiteAndFluffyTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		C8447F6B27A906E400541D98 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C8447F7327A9353500541D98 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		C8447F7727A9787800541D98 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		C8AF7D1F27B3C1FF008DA63E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				C8447F7927A9788000541D98 /* Extension */,
 				C8447F5427A8640000541D98 /* Assets.xcassets */,
 				C8447F5627A8640000541D98 /* LaunchScreen.storyboard */,
+				C8AF7D1F27B3C1FF008DA63E /* Main.storyboard */,
 				C8447F5927A8640000541D98 /* Info.plist */,
 			);
 			path = WhiteAndFluffyTest;
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AF7D2027B3C1FF008DA63E /* Main.storyboard in Resources */,
 				C8447F5827A8640000541D98 /* LaunchScreen.storyboard in Resources */,
 				C8447F5527A8640000541D98 /* Assets.xcassets in Resources */,
 			);
