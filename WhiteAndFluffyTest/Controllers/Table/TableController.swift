@@ -14,7 +14,7 @@ class TableController: UITableViewController {
     
     // MARK: - UI Elements
     
-    private lazy var welcomeLabel = UILabel(text: "You haven't added a photo yet 😑")
+    private lazy var welcomeLabel = UILabel(text: "You haven't added photos yet 😑")
 
     // MARK: - ViewDidLoad and private setup functions
     
